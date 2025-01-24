@@ -131,7 +131,8 @@ do
         Console.WriteLine();
         for (int i = 0; i < foods.Count; i++)
         {
-            Console.WriteLine(foods[i].Name);
+            Console.Write(foods[i].Name);
+            Console.WriteLine("  Quantity: "+ foods[i].Quantity);
         }
         Console.WriteLine();
         choice = 0;
